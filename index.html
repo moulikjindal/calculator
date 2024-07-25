@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Calculator</h1>
+        </header>
+        <div class="container">
+            <div class="calculator">
+                <!-- History display -->
+                <textarea class="calculator-history" readonly></textarea>
+                <!-- Current input display -->
+                <input type="text" class="calculator-screen" value disabled />
+                <div class="calculator-buttons">
+                    <!-- Clear buttons -->
+                    <button type="button" class="all-clear"
+                        value="all-clear">AC</button>
+                    <button type="button" class="clear" value="clear">C</button>
+                    <button type="button" class="backspace"
+                        value="backspace">⌫</button>
+                    <button type="button" class="operator"
+                        value="/">&#247;</button>
+                    <!-- Number and decimal buttons -->
+                    <button type="button" value="7">7</button>
+                    <button type="button" value="8">8</button>
+                    <button type="button" value="9">9</button>
+                    <button type="button" class="operator"
+                        value="*">&#215;</button>
+
+                    <button type="button" value="4">4</button>
+                    <button type="button" value="5">5</button>
+                    <button type="button" value="6">6</button>
+                    <button type="button" class="operator" value="-">-</button>
+
+                    <button type="button" value="1">1</button>
+                    <button type="button" value="2">2</button>
+                    <button type="button" value="3">3</button>
+                    <button type="button" class="operator" value="+">+</button>
+
+                    <button type="button" value="0">0</button>
+                    <button type="button" value="00">00</button>
+                    <button type="button" class="decimal" value=".">.</button>
+                    <button type="button" class="equal-sign operator"
+                        value="=">=</button>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>By <a href="">Moulik Jindal</a></p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
